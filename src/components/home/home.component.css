@@ -1,1 +1,4 @@
-import header from
+.home-wrapper {
+    background-image: linear-gradient(white, #ffff99);
+    padding: 5px;
+}

@@ -1,11 +1,18 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import Footer from '../../common/footer/footer.component';
+import Header from '../../common/header/header.component';
+import Reward from '../../common/reward-section/reward.component';
 
 import './home.component.css'
-import Header from '../../common/header/header.component'
 
-export default function Home() {
+export default function Home(props) {
     return (
-        <Header />
+        <div className='home-wrapper'>
+            <Header />
+
+            <Reward />
+
+            <Footer />
+        </div>
     )
 }

@@ -1,0 +1,97 @@
+.container-wrapper {
+    display: flex;
+    width: 100%;
+}
+.left-section {
+    width: 30%;
+    text-align: center;
+}
+.brand-logo {
+    width: 100%;
+}
+.right-section {
+    width: 70%;
+}
+.people-img {
+    width: 100%;
+}
+.heading {
+    font-size: 14px;
+    font-weight: 700;
+    text-align: start;
+}
+.reward-img {
+    width: 100%;
+}
+ul {
+    font-size: 14px;
+}
+.img-title {
+    font-size: 14px;
+}
+.install-text {
+    font-size: 12px;
+    margin-left: 120px;
+    font-weight: 500;
+}
+.equipment-section {
+    width: 100%;
+    text-align: center;
+}
+.equipment-img {
+    width: 90%;
+}
+.product-text {
+    padding: 10px;
+    width: 90%;
+    padding: 5px;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 14px;
+    border-top-style: solid;
+    border-top-color: red;
+}
+.product-text-heading {
+    font-weight: bold;
+}
+.chemical-text {
+    font-size: 12px;
+}
+
+@media screen and (max-width: 425px) {
+    .container-wrapper {
+    }
+    .left-section {
+        display: flex;
+    }
+    .brand-logo {
+        display: flex;
+    }
+    .right-section {
+    }
+    .heading {
+        font-size: 8px;
+    }
+    ul {
+        font-size: 6px;
+    }
+    .img-title {
+        font-size: 6px;
+    }
+    .install-text {
+        font-size: 6px;
+        margin-left: 15px;
+        font-weight: 500;
+    }
+    .product-text {
+        margin-left: 10px;
+        font-size: 8px;
+        margin-top: 20px;
+    }
+    .product-text-heading {
+        font-weight: bold;
+    }
+    .chemical-text {
+        font-size: 6px;
+    }
+}
