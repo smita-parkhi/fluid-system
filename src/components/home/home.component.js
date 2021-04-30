@@ -10,7 +10,7 @@ export default function Home(props) {
         <div className='home-wrapper'>
             <Header   />
 
-            <Reward />
+            <Reward       />
 
             <Footer />
         </div>
