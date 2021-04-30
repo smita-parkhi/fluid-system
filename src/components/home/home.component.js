@@ -8,9 +8,9 @@ import './home.component.css'
 export default function Home(props) {
     return (
         <div className='home-wrapper'>
-            <Header   />
+            <Header />
 
-            <Reward       />
+            <Reward />
 
             <Footer />
         </div>

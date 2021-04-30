@@ -15,7 +15,7 @@
 .people-img {
     width: 100%;
 }
-.heading {
+.right-section-heading {
     font-size: 14px;
     font-weight: 700;
     text-align: start;
@@ -26,7 +26,7 @@
 ul {
     font-size: 14px;
 }
-.img-title {
+.people-img-title {
     font-size: 14px;
 }
 .install-text {
@@ -59,7 +59,8 @@ ul {
 }
 
 @media screen and (max-width: 425px) {
-    .container-wrapper {
+    .container {
+        min-height: calc(100vh - 100px);
     }
     .left-section {
         display: flex;
@@ -67,15 +68,13 @@ ul {
     .brand-logo {
         display: flex;
     }
-    .right-section {
-    }
-    .heading {
+    .right-section-heading {
         font-size: 8px;
     }
     ul {
         font-size: 6px;
     }
-    .img-title {
+    .people-img-title {
         font-size: 6px;
     }
     .install-text {
@@ -90,6 +89,7 @@ ul {
     }
     .product-text-heading {
         font-weight: bold;
+        margin-top: 15px;
     }
     .chemical-text {
         font-size: 6px;

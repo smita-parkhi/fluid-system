@@ -1,8 +1,14 @@
-.header-wrapper{
-     width: 100%;
+.header-wrapper {
+    width: 100%;
     text-align: center;
+    height: 180px;
 }
-.brand-logo-header{
+.brand-logo-header {
     width: 40%;
-    
+}
+
+@media screen and (max-width: 425px) {
+    .header-wrapper {
+        height: 50px;
+    }
 }
