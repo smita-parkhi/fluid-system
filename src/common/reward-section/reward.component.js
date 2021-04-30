@@ -39,6 +39,7 @@ export default function Reward() {
             </div>
             <div className='product-text'>
                 <p className='product-text-heading'>C.R.I. FLUID SYSTEMS PRODUCTS CATER TO DIVERSE SEGMENTS</p>
+                {/* <div className='product-list'><p className='product-name'>CHEMICALS & PROCESS</p> <p className='product-name'>POWER</p> <p className='product-name'>WATER & WASTE WATER</p> <p className='product-name'>OILS & GAS </p><p className='product-name'>PHARMA</p><p className='product-name'> SUGARS & DISTILLERIES </p><p className='product-name'>PAPER & PULP</p><p className='product-name'> MARINE & DEFENCE</p> <p className='product-name'> METAL & MINING </p><p className='product-name'>FOOD & BEVERAGE</p><p className='product-name'> PETROCHEMICAL & REFINERIES </p><p className='product-name'>SOLAR</p> <p className='product-name'>BUILDING</p><p className='product-name'> HVAC</p> <p className='product-name'>FIRE FIGHTING </p><p className='product-name'>AGRICULTURE & RESIDENTIAL</p></div> */}
                 <p className='chemical-text'>CHEMICALS & PROCESS POWER WATER & WASTE WATER OILS & GAS PHARMA SUGARS & DISTILLERIES PAPER & PULP MARINE & DEFENCE METAL & MINING FOOD & BEVERAGE PETROCHEMICAL & REFINERIES SOLAR BUILDING HVAC FIRE FIGHTING AGRICULTURE & RESIDENTIAL</p>
             </div>
         </div>
